@@ -252,7 +252,9 @@
 
 body {
   background-color: rgb(102, 102, 98);
+    font-family: Arial, sans-serif; 
 }
+
 
 html, body {
   margin: 0;
@@ -369,9 +371,11 @@ html, body {
 
 .contact_icons {
     display: flex;
-    justify-content: space-around; 
+    justify-content: center;
+    align-items: center; 
     flex-wrap: wrap;               
-    width: 100%;                   
+    width: 100%;  
+    gap: 20px;                 
     max-width: 900px;              
     margin-top: 20px;
 }
